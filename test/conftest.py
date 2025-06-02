@@ -23,4 +23,4 @@ def pytest_runtest_teardown(item, nextitem):
                             attachment_type=allure.attachment_type.PNG,
                         )
     except Exception as e:
-        print(f"Error taking screenthot: {e}")
+        print(f"Error taking screenshot: {e}")
